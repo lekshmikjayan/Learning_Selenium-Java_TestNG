@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Reading data">
+  <test  name="Sample Test">
+	  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="UI.readxml"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

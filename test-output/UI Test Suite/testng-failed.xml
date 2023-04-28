@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="UI.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="UI.Practise">
+        <methods>
+          <include name="w"/>
+          <include name="a"/>
+          <include name="p"/>
+          <include name="k"/>
+          <include name="j"/>
+          <include name="z"/>
+          <include name="e"/>
+        </methods>
+      </class> <!-- UI.Practise -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [UI Test Suite] -->

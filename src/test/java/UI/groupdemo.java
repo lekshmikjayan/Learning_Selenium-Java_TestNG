@@ -14,7 +14,7 @@ public class groupdemo extends Commondatasetup{
 	public void clear() {
 		System.out.println("2");
 	}
-	
+	 
 	@Test(groups="bvt")
 	public void demo() {
 		System.out.println("3");
